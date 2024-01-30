@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-function AwCAtegories() {
+function AwCategories() {
     return (  
        <div>
             <ul>
@@ -19,4 +19,4 @@ function AwCAtegories() {
     );
 }
 
-export default AwCAtegories;{}
+export default AwCategories;

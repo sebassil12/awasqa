@@ -1,6 +1,9 @@
 function AwFlowers() {
-    return ( <>
-    </> );
+    return ( 
+        <section>
+            Flowers
+        </section>
+    );
 }
 
 export default AwFlowers;

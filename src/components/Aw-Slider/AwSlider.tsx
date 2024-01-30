@@ -15,26 +15,21 @@ function AwSlider({slides}:AwSlider) {
     //     setCurrentIndex(MovePrevious);
     // }
 
-    // const goNext = ()=>{
-    //     let isLastSlide = currentIndex === slides.length -1;
-    //     let MoveNext = isLastSlide ? 0 : currentIndex + 1;
-    //     setCurrentIndex(MoveNext); 
-    // }
-
-    function processSlide(index: number){
-        setTimeout(()=>{
-            setCurrentIndex(index);
-             if(index < slides.length -1){
-                processSlide(index + 1);
-             }else{
-                processSlide(0);
-             }
-        }, 3000)
+    const goNext = ()=>{
+        let isLastSlide = currentIndex === slides.length -1;
+        let MoveNext = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(MoveNext); 
     }
 
+
+
     useEffect(()=>{
-        processSlide(currentIndex);
-    },[])
+        const intervalId = setInterval(()=>{
+            goNext();
+        }, 3000);
+
+        return ()=>clearInterval(intervalId);
+    },[currentIndex, slides])
        
     return ( 
         <div className={awslider.container}>

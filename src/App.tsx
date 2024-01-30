@@ -8,6 +8,7 @@ import AwFlowers from './pages/AwProducts/sections/AwFlowers'
 import AwCharacters from './pages/AwProducts/sections/AwCharacters'
 import AwBouquets from './pages/AwProducts/sections/AwBouquets'
 import AwContact from './pages/AwContact/AwContact'
+import AwCategories from './components/Aw-Categories/AwCategories'
 
 function App() {
   
@@ -17,13 +18,16 @@ function App() {
     <Routes>
 
       <Route index element={<AwHome/>}/>
-      <Route path='/products' element={
-      <Routes>
-        <Route path='/' element={<AwProduct />}/>
-        <Route path='/flowers' element={<AwFlowers/>}/>
-        <Route path='/characters' element={<AwCharacters />}/>
-        <Route path='/bouquets' element={<AwBouquets />} />
-      </Routes>}/>
+      <Route path='products' element={<AwProduct />}>
+        <Route path='flowers' element={<AwFlowers/>}/>
+        <Route path='characters' element={<AwCharacters />}/>
+        <Route path='bouquets' element={<AwBouquets />} />
+
+      </Route>
+
+
+        
+        
       <Route path='/contact' element={<AwContact />}/>
     </Routes>
     </BrowserRouter>
