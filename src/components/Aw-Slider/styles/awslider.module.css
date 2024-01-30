@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.image_background{
+    width: 50%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

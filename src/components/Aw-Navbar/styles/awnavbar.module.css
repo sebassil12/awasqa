@@ -1,0 +1,35 @@
+*{
+    text-decoration: none;
+    list-style: none;
+
+}
+.nav_container{
+    width: 100vw;
+    display: flex;
+    top: 0;
+    position: absolute;
+    margin-right: var(--margin);
+    margin-left: var(--margin);
+}
+.list{
+    display: flex;
+}
+.list_item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+
+}
+.logo_container{
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    place-items: center;
+    justify-content: space-between;
+}
+.brand{
+    font-family: var(--title);
+}
+
+.item{
+    font-family: var(--subtitle);
+}
