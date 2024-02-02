@@ -8,7 +8,7 @@ import AwFlowers from './pages/AwProducts/sections/AwFlowers'
 import AwCharacters from './pages/AwProducts/sections/AwCharacters'
 import AwBouquets from './pages/AwProducts/sections/AwBouquets'
 import AwContact from './pages/AwContact/AwContact'
-import AwCategories from './components/Aw-Categories/AwCategories'
+
 
 function App() {
   
