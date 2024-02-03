@@ -1,12 +1,13 @@
-import { Outlet } from "react-router-dom";
-import AwCategories from "../../components/Aw-Categories/AwCategories";
+import { Link, Outlet } from "react-router-dom";
 import awproduct from "./styles/awproduct.module.css"
+import AwMenuProducts from "../../components/Aw-Menu-Products/AwMenuProducts";
 function AwProduct() {
     return ( 
-        <section>
+        <section className={awproduct.container}>
             <h1 className={awproduct.title}>PRODUCTOS</h1>
-            <AwCategories />
-            <div>
+            <p className={awproduct.contact}>¿Tienes algún modelo especial en mente? <Link to={"/contacts"}>Consulta conmigo</Link></p>
+            <AwMenuProducts />
+            <div className={awproduct.sections_container}>
 
             <Outlet />
             </div>

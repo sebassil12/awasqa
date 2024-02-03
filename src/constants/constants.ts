@@ -32,3 +32,18 @@ export const slides = [{
 },{
     url:IMAGES.perry
 }]
+
+export const SOCIAL_MEDIA ={
+    instagram : "/images/ins.svg",
+    tiktok: "/images/tk.svg"
+} 
+
+export const CONTACTS = {
+    whatsapp: "/images/whatsapp.svg",
+    location: "/images/location.svg",
+    perfil: "/images/Nicole_Toral.png"
+}
+export const SVG_DECORATION = {
+    arrow:"/images/arrow.svg",
+    sunflower: "/images/sunflower.svg"
+}

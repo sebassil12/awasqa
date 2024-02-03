@@ -28,7 +28,7 @@ function App() {
 
         
         
-      <Route path='/contact' element={<AwContact />}/>
+      <Route path='/contacts' element={<AwContact />}/>
     </Routes>
     </BrowserRouter>
   )

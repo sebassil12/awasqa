@@ -1,0 +1,19 @@
+.name_container{
+    display: flex;
+}
+.perfil_container{
+   width: 5vw;
+    height: 10vh;
+}
+.perfil{
+    width: 100%;
+    height: 100%;   
+    border-radius: 100%;
+}
+
+.name{
+    font-family: var(--title);
+}
+.subname{
+    font-family: var(--subtitle);
+}
