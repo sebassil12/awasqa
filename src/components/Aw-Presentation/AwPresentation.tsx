@@ -1,5 +1,3 @@
-import { SVG_DECORATION } from '../../constants/constants';
-import AwSocial from '../Aw-Social/AwSocial';
 import awpresentation from './styles/awpresentation.module.css';
 interface AwPresentationProps{
     children_content: React.ReactNode,

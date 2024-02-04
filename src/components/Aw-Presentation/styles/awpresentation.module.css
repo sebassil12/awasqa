@@ -9,18 +9,4 @@
     box-shadow: 0px 0px 30px 1px var(--tertiary);
    }
 
-   .button{
-    background-color: var(--tertiary);
-    border: none;
-    box-sizing: border-box;
-    
-   }
 
-   .text{
-    color: white;
-   }
-
-   .container_button{
-    display: flex;
-    align-items: center;
-   }

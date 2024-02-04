@@ -1,9 +1,11 @@
+
 import AwPresentation from '../../components/Aw-Presentation/AwPresentation';
 import AwSlider from '../../components/Aw-Slider/AwSlider';
 import AwSocial from '../../components/Aw-Social/AwSocial';
-import { SVG_DECORATION, slides } from '../../constants/constants';
+import {  slides } from '../../constants/constants';
 
 import awhome from './styles/awhome.module.css'
+import AwButton from '../../components/Aw-Button/AwButton';
 function AwHome() {
     return ( 
         <section className={awhome.container}>
@@ -18,10 +20,13 @@ function AwHome() {
                  <li>📍Cuenca, Ecuador</li>
      
                  </ul>
-                 <button><div ><p>PRODUCTOS <img src={SVG_DECORATION.arrow} width={30}/></p></div></button>
+                 
                  </div>
             } children_social={
+                <div>
+                <AwButton />
                 <AwSocial />
+                </div>
             } />      
             </section>
             <section className={awhome.slider}>
