@@ -20,7 +20,7 @@ function AwHome() {
                  <li>📍Cuenca, Ecuador</li>
      
                  </ul>
-                 
+                 <br />
                  </div>
             } children_social={
                 <div>
