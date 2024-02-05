@@ -32,7 +32,11 @@
     padding-top: 5px;
     border-top: 1px solid #ddd;
    }
-   
+   .cancel{
+    position: relative;
+    z-index: 3;
+    text-align: right;
+   }
    /*Text*/
    .text_title {
     margin-left: 10px;
