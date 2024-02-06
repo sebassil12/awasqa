@@ -45,5 +45,6 @@ export const CONTACTS = {
 }
 export const SVG_DECORATION = {
     arrow:"/images/arrow.svg",
-    sunflower: "/images/sunflower.svg"
+    sunflower: "/images/sunflower.svg",
+    previous_next:"/images/previous-next.svg"
 }
