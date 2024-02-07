@@ -3,7 +3,7 @@ import awbutton from "./styles/awbutton.module.css";
 import { SVG_DECORATION } from "../../constants/constants";
 function AwButton() {
     return ( 
-        <Link to={"/products"}>
+        <Link to={"/products/flowers"}>
             <button className={awbutton.button_container}>
                 <div className={awbutton.button_contain_text}>
                 <p className={awbutton.button_description}>PRODUCTOS 
