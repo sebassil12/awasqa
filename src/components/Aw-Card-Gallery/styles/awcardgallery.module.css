@@ -87,8 +87,10 @@
   }
 
   .desc_container{
+    height: 20%;
     display: flex;
     justify-content: space-between ;
+    align-items: center;
     
   }
   .top .title {

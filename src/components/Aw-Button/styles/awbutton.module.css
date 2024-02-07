@@ -1,7 +1,5 @@
 .button_container{
-    width: 50%;
     background-color: var(--tertiary);   
-    height: 10%;
     
 }
 .button_contain_text{
@@ -15,4 +13,8 @@
     color: white;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.button_container:hover{
+    border-color: var(--secondary);
 }

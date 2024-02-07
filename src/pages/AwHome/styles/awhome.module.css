@@ -1,19 +1,30 @@
-.container{
-    width: 100vw;
-    height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);        
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: var(--margin);
+  width: 80vw;
 }
 
-.slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.slider {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  margin-left: 10%;
+  
+}
+.welcome{
+    font-family: var(--title);
+}
+.desc{
+    font-family: var(--text);
+
 }

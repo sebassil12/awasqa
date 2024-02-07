@@ -12,18 +12,20 @@ function AwHome() {
             <section className={awhome.card}>
             <AwPresentation children_content={
                 <div>
-                 <h1>¡Bienvenido!</h1>
+                 <h1 className={awhome.welcome}>¡Bienvenido a un lugar mágico!</h1>
                  <ul>
-                 <li>Tiendita virtual 🧚</li>
-                 <li>Plantitas y peluches tejidos a crochet🧶🪡</li>
-                 <li>También se personaliza✨️</li>
-                 <li>📍Cuenca, Ecuador</li>
+                 <li className={awhome.desc}>Tiendita virtual 🧚</li>
+                 <li className={awhome.desc}>Plantitas y peluches tejidos a crochet🧶🪡</li>
+                 <li className={awhome.desc}>También se personaliza✨️</li>
+                 <li className={awhome.desc}>📍Cuenca, Ecuador</li>
+                 <li className={awhome.desc}>Hecho 100% en Ecuador</li>
      
                  </ul>
                  <br />
                  </div>
             } children_social={
                 <div>
+                <br />
                 <AwButton />
                 <AwSocial />
                 </div>

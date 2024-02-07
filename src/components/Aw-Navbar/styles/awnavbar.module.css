@@ -4,31 +4,35 @@
 
 }
 .nav_container{
-    width: 50vw;
+    width: 72vw;
     display: flex;
     top: 0;
     position: absolute;
     margin-right: var(--margin);
     margin-left: var(--margin);
+    align-items: center;
+    justify-content: space-between;
 }
 .list{
     display: flex;
+    width: 60%;
+    justify-content: space-between;
 }
 .list_item{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
 .logo_container{
-    display: grid;
-    grid-template-columns: repeat(2, 120px);
-    place-items: center;
-    justify-content: space-between;
+   display: flex;
+   z-index: 0;
 }
 .brand{
     font-family: var(--title);
     font-size: 36px;
+    display: flex;
+    align-items: center;
 }
 
 .item{

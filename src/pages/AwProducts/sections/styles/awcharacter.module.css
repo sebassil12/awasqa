@@ -1,5 +1,6 @@
 .container{
     margin-left: var(--margin);
+    margin-right: var(--margin);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 25%);
 }

@@ -1,22 +1,73 @@
 .container{
     width: 100vw;
-    height: 60vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 .contact{
    margin-bottom: 10px;
-   margin-top: 0px;
+   margin-top: 10px;
 }
 .title{
     font-family: var(--title);
     color: black;
     font-size: 36px;
+    margin-top: 1%;
+    display: block;
 }
 
 .sections_container{
     width: 100vw;
-    height: 30vh;
+    height: 100%;
+    margin-top: 1%;
 }
+/*Section modal*/
+.card_information{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.information_container{
+    width: 70vw;
+    height: 60vh;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.title{
+    font-family: var(--title);
+    
+}
+
+.section_top{
+    display: flex;
+    justify-content: space-between;
+}
+.steps_container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.steps{
+    font-family: var(--text);
+    font-size: x-large;
+    line-height: 50px;
+}
+
+.important{
+    color: var(--tertiary);
+}
+.modal_information{
+    display: flex;
+    cursor: pointer;
+
+}
+.top_product{
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    align-items: center;
+    justify-items: center;
+    
+}
+

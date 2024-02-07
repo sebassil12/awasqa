@@ -14,7 +14,7 @@ function AwNavbar() {
                     <Link to={"/"}><p className={awnavbar.item}>INICIO</p></Link>
                 </li>
                 <li className={awnavbar.list_item}>
-                    <Link to={"/products"}><p className={awnavbar.item}>PRODUCTOS</p></Link>
+                    <Link to={"/products/flowers"}><p className={awnavbar.item}>PRODUCTOS</p></Link>
                 </li>
                 <li className={awnavbar.list_item}>
                     <Link to={"/contacts"}><p className={awnavbar.item}>CONTACTOS</p></Link>
