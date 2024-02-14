@@ -39,3 +39,12 @@
     font-family: var(--subtitle);
     color:black;
 }
+
+
+@media screen and (max-width:768px) {
+   .nav_container{
+    margin: 0;
+   }
+   
+    
+}

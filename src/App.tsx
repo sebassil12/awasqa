@@ -8,12 +8,14 @@ import AwFlowers from './pages/AwProducts/sections/AwFlowers'
 import AwCharacters from './pages/AwProducts/sections/AwCharacters'
 import AwBouquets from './pages/AwProducts/sections/AwBouquets'
 import AwContact from './pages/AwContact/AwContact'
+import ResponsiveService from './service/ResposiveService'
 
 
 function App() {
   
   return(
     <BrowserRouter>
+    <ResponsiveService>
     <AwNavbar />
     <Routes>
 
@@ -30,6 +32,7 @@ function App() {
         
       <Route path='/contacts' element={<AwContact />}/>
     </Routes>
+    </ResponsiveService>
     </BrowserRouter>
   )
 }
