@@ -85,4 +85,43 @@
         margin-top: 10px;
         margin-left: 20px;
      }
+
+     .card_information{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .information_container{
+        width: 70vw;
+        height: 70vh;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    .title{
+        font-family: var(--title);
+        
+    }
+    
+    .section_top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .steps_container{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .steps{
+        font-family: var(--text);
+        font-size: 20px;
+        line-height: 40px;
+        
+    }
+    .cancel{
+        width: 10%;
+        height: 10%;
+    }
+    
+ 
 }
