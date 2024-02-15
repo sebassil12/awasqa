@@ -1,7 +1,7 @@
 *{
     text-decoration: none;
     list-style: none;
-
+    
 }
 .nav_container{
     width: 72vw;
@@ -27,12 +27,14 @@
 .logo_container{
    display: flex;
    z-index: 0;
+   
 }
 .brand{
     font-family: var(--title);
     font-size: 36px;
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .item{
@@ -44,6 +46,7 @@
 @media screen and (max-width:768px) {
    .nav_container{
     margin: 0;
+    width: 100vw;
    }
    .list{
     width: 100vw;
@@ -62,6 +65,9 @@
     justify-content: center;
 
     } 
+    .burger{
+        right: 0;
+    }
 
    
 }

@@ -12,10 +12,10 @@ function AwNavbar() {
     return ( 
 
         <nav className={awnavbar.nav_container}>
-            <div className={awnavbar.logo_container}>
+            <Link to={"/"} className={awnavbar.logo_container}>
                 <img src={LOGO.aw_main} width={100}/>
                 <h1 className={awnavbar.brand}>Awasqa</h1>
-            </div>
+            </Link>
             {isMobile ? (
                 <div className={awnavbar.burger_container} >
                     {isOpenMenu ? (
