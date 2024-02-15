@@ -5,7 +5,9 @@ import { useResponsive } from "../../service/ResposiveService";
 import { useState } from "react";
 
 function AwNavbar() {
-    const [isModal, setIsModal] = useState();
+    const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
+
+
     const isMobile = useResponsive();
     return ( 
 
@@ -15,12 +17,20 @@ function AwNavbar() {
                 <h1 className={awnavbar.brand}>Awasqa</h1>
             </div>
             {isMobile ? (
-                <div>
-                    <img src={SVG_DECORATION.burger} width={50}/>
+                <div className={awnavbar.burger_container} >
+                    {isOpenMenu ? (
+                        <img src={SVG_DECORATION.cancel} width={50} className={awnavbar.burger} onClick={()=>setIsOpenMenu(false)}/>
+                    ):(
+                        
+                        <img src={SVG_DECORATION.burger} width={50} className={awnavbar.burger} onClick={()=>setIsOpenMenu(true)}/>
+                    )}
+                    
                 </div>
                 
             ) : (
-                <ul className={awnavbar.list}>
+                null
+            )}
+            <ul className={awnavbar.list} style={{'display':isOpenMenu ? 'block' : 'none'}}>
                 <li className={awnavbar.list_item}>
                     <Link to={"/"}><p className={awnavbar.item}>INICIO</p></Link>
                 </li>
@@ -31,8 +41,6 @@ function AwNavbar() {
                     <Link to={"/contacts"}><p className={awnavbar.item}>CONTACTOS</p></Link>
                 </li>
             </ul>
-            )}
-            
 
         </nav>
     );

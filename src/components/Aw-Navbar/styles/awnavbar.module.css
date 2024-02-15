@@ -45,6 +45,23 @@
    .nav_container{
     margin: 0;
    }
+   .list{
+    display:block;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    margin-top: 65%;
+    background-color: var(--secondary);
+   }
+
+   .list_item{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+
+    }
+
    
-    
 }
