@@ -24,13 +24,7 @@ function AwNavbar() {
                         
                         <img src={SVG_DECORATION.burger} width={50} className={awnavbar.burger} onClick={()=>setIsOpenMenu(true)}/>
                     )}
-                    
-                </div>
-                
-            ) : (
-                null
-            )}
-            <ul className={awnavbar.list} style={{'display':isOpenMenu ? 'block' : 'none'}}>
+                     <ul className={awnavbar.list} style={{'display':isOpenMenu ? 'block' : 'none'}}>
                 <li className={awnavbar.list_item}>
                     <Link to={"/"}><p className={awnavbar.item}>INICIO</p></Link>
                 </li>
@@ -41,6 +35,23 @@ function AwNavbar() {
                     <Link to={"/contacts"}><p className={awnavbar.item}>CONTACTOS</p></Link>
                 </li>
             </ul>
+                    
+                </div>
+                
+            ) : (
+                <ul className={awnavbar.list} >
+                <li className={awnavbar.list_item}>
+                    <Link to={"/"}><p className={awnavbar.item}>INICIO</p></Link>
+                </li>
+                <li className={awnavbar.list_item}>
+                    <Link to={"/products/flowers"}><p className={awnavbar.item}>PRODUCTOS</p></Link>
+                </li>
+                <li className={awnavbar.list_item}>
+                    <Link to={"/contacts"}><p className={awnavbar.item}>CONTACTOS</p></Link>
+                </li>
+            </ul>
+            )}
+
 
         </nav>
     );

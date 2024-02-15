@@ -8,6 +8,7 @@
 .text{
   font-size: var(--text);
   color: black;
+  padding: 10%;
 }
 .Btn {
     width: 35px;

@@ -28,3 +28,12 @@
     font-family: var(--text);
 
 }
+@media screen and (max-width:768px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--margin);
+    width: 5%;
+  } 
+}
