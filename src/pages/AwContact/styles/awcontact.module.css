@@ -77,19 +77,19 @@
 @media screen and (max-width:1100px) {
     .name{
         font-family: var(--title);
-        font-size: 120%;
+        font-size: 200%;
         margin-left: 10%;
         width: 100%;
     }
     .subname{
         font-family: var(--subtitle);
-        font-size: 80%;
+        font-size: 100%;
         margin-left: 10%;
         line-height: 100%;
     }
     .perfil_container{
-        width: 30%;
-        height: 30%;  
+        width: 100px;
+        height: 100px;  
         margin-top: 10%;
     }
     
@@ -100,7 +100,7 @@
     
     }
     .card_container{
-        width: 40vw;
+        width: 80vw;
         height: 50vh;
     
     }
@@ -108,6 +108,11 @@
     .contact_desc{
         margin-left: 5%;
         text-decoration: none;
-        font-size: 80%;
+        font-size: 100%;
+    }
+    .section{
+        font-size: 24px;
+        font-family: var(--title);
+        color: black;
     }
 }
