@@ -106,3 +106,26 @@
     font-family: var(--text);
     margin-right: 5%;
   }
+  @media screen and (max-width:1100px) {
+    .card {
+      width: 80vw;
+      height: 80vw;
+      background: linear-gradient(10deg, var(--primary) 0%, var(--secondary) 100%);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .button_container{
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: end;
+    width: 70%;
+  }
+  
+  
+  
+  }
