@@ -1,6 +1,7 @@
 .container{
     width: 100vw;
-    height: 75vh;
+    height: 140vh;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +103,7 @@
     }
     .title{
         font-family: var(--title);
+        font-size: 25px;
     }
     
     .section_top{
@@ -119,7 +121,7 @@
     .steps{
         font-family: var(--text);
         font-size: 20px;
-        line-height: 40px;
+        line-height: 30px;
         
         
     }
@@ -127,6 +129,8 @@
         width: 10%;
         height: 10%;
     }
-    
+    .container{
+        margin-top: 20%;
+    }
  
 }

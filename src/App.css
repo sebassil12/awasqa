@@ -3,7 +3,8 @@
 body{
   background-image: url("/aw-background.png");
   background-size: cover;
-  background-repeat: repeat-y;
+  background-attachment:fixed;
+  overflow: scroll;
   background-position: bottom;
   --title: 'Thasadith', sans-serif;
   --text: 'Quicksand', sans-serif;

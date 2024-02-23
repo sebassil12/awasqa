@@ -69,22 +69,22 @@ export const bouquets = [
     {
         id:1,
         image:["/images/RamoGirasolTulipan/1.png"],
-        price:"$??",
-        size:"??",
+        price:"",
+        size:"",
         name:"Ramitos personalizados"
     },
     {
         id:2,
         image:["/images/RamoTulipan/1.png"],
-        price:"$??",
-        size:"??",
+        price:"",
+        size:"",
         name:"Ramo de tulipanes"
     },
     {
         id:3,
         image:["/images/RamoGirasoles/1.png", "/images/RamoGirasoles/2.png", "/images/RamoGirasoles/3.png"],
         price:"$12,99",
-        size:"??",
+        size:"",
         name:"Ramo de Girasoles"
     },
     {
@@ -116,14 +116,14 @@ export const flowers = [{
     id:2,
     image:["/images/Tulipanes/1.png", "/images/Tulipanes/2.png", "/images/Tulipanes/3.png"],
     price:"$2,25",
-    size:"??",
+    size:"",
     name:"Tulipanes"
 },
 {
     id:3,
     image:["/images/Rosas/1.png","/images/Rosas/2.png","/images/Rosas/3.png"],
     price:"$3,50",
-    size:"??",
+    size:"",
     name:"Rosas"
 
 

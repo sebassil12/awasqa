@@ -40,7 +40,7 @@ function AwProduct() {
                     <p>Información de compra</p>
                 </div>
                 </div>
-                <p className={awproduct.contact}>¿Tienes algún modelo especial en mente? <Link to={"/contacts"}>Consulta conmigo</Link></p>
+                <p className={awproduct.contact}>¿Tienes algún modelo especial en mente? <Link to={"/contacts"} style={{color:"#9D7629"}}>Consulta conmigo</Link></p>
                 <AwMenuProducts />
                 <div className={awproduct.sections_container}>
     
