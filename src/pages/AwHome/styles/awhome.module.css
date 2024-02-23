@@ -7,11 +7,15 @@
 }
 
 .card {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: var(--margin);
-  width: 80vw;
+  max-width: 80vw;
+  white-space: wrap;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
 }
 
 .slider {
@@ -36,4 +40,9 @@
     margin-left: var(--margin);
     width: 5%;
   } 
+
+  .slider{
+    width: 20%;
+    
+  }
 }

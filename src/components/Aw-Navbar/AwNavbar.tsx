@@ -13,7 +13,7 @@ function AwNavbar() {
 
         <nav className={awnavbar.nav_container}>
             <Link to={"/"} className={awnavbar.logo_container}>
-                <img src={LOGO.aw_main} width={100}/>
+                <img src={LOGO.aw_main} width={90}/>
                 <h1 className={awnavbar.brand}>Awasqa</h1>
             </Link>
             {isMobile ? (

@@ -19,6 +19,9 @@
 .card_container{
     width: 30vw;
     height: 50vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
