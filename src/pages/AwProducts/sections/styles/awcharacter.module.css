@@ -12,7 +12,7 @@
         width: 100%;
         justify-items: center;
         display: grid;
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: repeat(3, 34%);
         row-gap: 5%;
     }
 }
