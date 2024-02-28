@@ -35,7 +35,7 @@ function AwCardGallery({ size, onClose, imageSlides }: AwCardGalleryProps) {
         </div>
         <div className={awcardgallery.top}>
           <div onClick={goPrevious} className={awcardgallery.previous}>
-            <img src={SVG_DECORATION.previous_next} width={30}  className={awcardgallery.svg_control}/>
+            <img src={SVG_DECORATION.previous_next} width={30}  className={awcardgallery.svg_control} />
           </div>
           <div onClick={goNext} className={awcardgallery.next}>
 

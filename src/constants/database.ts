@@ -1,7 +1,7 @@
 export const characters =[
     {
         id:1,
-        image: ["/images/Aya_Huma/1.png","/images/Aya_Huma/2.png","/images/Aya_Huma/3.png"],
+        image: ["/images/Aya_Huma/1.webp","/images/Aya_Huma/2.webp","/images/Aya_Huma/3.webp"],
         price: " ",
         size:"A tu elección",
         name:"Aya Huma" 
@@ -23,7 +23,7 @@ export const characters =[
     },
     {
         id:4,
-        image:["/images/Luffy/1.png","/images/Luffy/2.png","/images/Luffy/3.png" ],
+        image:["/images/Luffy/1.webp","/images/Luffy/2.webp","/images/Luffy/3.webp" ],
         price:"$8,00",
         size:"15cm",
         name:"Luffy"
@@ -58,7 +58,7 @@ export const characters =[
     },
     {
         id:9, 
-        image:["/images/Spiderman/1.png", "images/Spiderman/2.png"],
+        image:["/images/Spiderman/1.webp", "images/Spiderman/2.webp"],
         price: "$14,99", 
         size:"18cm", 
         name:"Spiderman"

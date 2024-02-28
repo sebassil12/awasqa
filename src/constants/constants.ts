@@ -41,7 +41,7 @@ export const SOCIAL_MEDIA ={
 export const CONTACTS = {
     whatsapp: "/images/whatsapp.svg",
     location: "/images/location.svg",
-    perfil: "/images/Nicole_Toral.png"
+    perfil: "/images/Nicole_Toral.webp"
 }
 export const SVG_DECORATION = {
     arrow:"/images/arrow.svg",
