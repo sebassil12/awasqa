@@ -7,8 +7,9 @@
 }
 .text{
   font-size: var(--text);
-  color: black;
+  color: rgb(70, 54, 54);
   padding: 10%;
+  font-weight: bold;
 }
 .Btn {
     width: 35px;

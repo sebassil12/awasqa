@@ -7,13 +7,13 @@ export const LOGO = {
 }
 
 export const IMAGES = {
-    princess:"/images/princess.png",
-    ferxxo:"/images/ferxxo.png",
-    perry: "/images/perry.png",
-    sunflower: "/images/sunflower.png",
-    toad: "/images/toad.png",
-    totoro: "/images/totoro.png",
-    yoshi: "/images/yoshi.png"
+    princess:"/images/princess.webp",
+    ferxxo:"/images/ferxxo.webp",
+    perry: "/images/perry.webp",
+    sunflower: "/images/sunflower.webp",
+    toad: "/images/toad.webp",
+    totoro: "/images/totoro.webp",
+    yoshi: "/images/yoshi.webp"
 
 }
 
